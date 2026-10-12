@@ -1,0 +1,24 @@
+import React from 'react';
+
+const Welcome: React.FC = () => {
+  return (
+    <div className="modern-container">
+      <div className="modern-card">
+        <h2>Welcome to Our Modern App</h2>
+        <p>This is a sample welcome message.</p>
+        {/* Example of a source loop */}
+        <ul>
+          {data.map(item => (
+            <li key={item.id}>{item.name}</li>
+          ))}
+        </ul>
+        {/* Example of a source condition */}
+        {isLoggedIn && (
+          <button className="modern-button">Logout</button>
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default Welcome;

@@ -1,0 +1,26 @@
+import React from 'react';
+
+interface WelcomeProps {
+  // Define props if any
+}
+
+const Welcome: React.FC<WelcomeProps> = ({ /* props destructuring if needed */ }) => {
+  return (
+    <div>
+      <h1>Welcome to Our Website</h1>
+      {/* Example of a loop conversion */}
+      <ul>
+        {/* Assuming 'items' is a prop */}
+        {items.map((item, index) => (
+          <li key={index}>{item}</li>
+        ))}
+      </ul>
+      {/* Example of a conditional rendering */}
+      {items.length > 0 && (
+        <p>There are {items.length} items available.</p>
+      )}
+    </div>
+  );
+};
+
+export default Welcome;

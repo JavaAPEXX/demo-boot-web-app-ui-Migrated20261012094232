@@ -1,0 +1,7 @@
+{
+  "job_id": "job_bf701ad2397a",
+  "sourceRepoUrl": "https://github.com/jrphub/demo-boot-web-app-ui",
+  "targetJavaVersion": "21",
+  "status": "MIGRATION_CHECKPOINT",
+  "migration_date": ""
+}
